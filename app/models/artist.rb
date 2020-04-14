@@ -1,6 +1,6 @@
 class Artist < ApplicationRecord
-  has_many :albuns
+  has_many :albums
 
-  validates :name, precense: true
+  validates :name, presence: true
   has_one_attached :photo
 end
